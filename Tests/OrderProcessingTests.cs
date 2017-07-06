@@ -15,8 +15,19 @@ namespace OrangeBeans.Tests
 
       var reference = service.PlaceOrder(order);
 
-      reference.Should().Be("O-0");
+      reference.Should().Be("PR-1");
+    }
 
+    [Fact]
+    public void CompleteOrderTest()
+    {
+      var service = new OrderService();
+      Order order = new Order();
+
+      var reference = service.PlaceOrder(order);
+      var trackingID = service.CompleteOrder(reference);
+
+      trackingID.Should().Be("TR-1");
     }
   }
 }
