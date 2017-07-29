@@ -27,7 +27,7 @@ namespace OrangeBeans.Tests
       var reference = service.PlaceOrder(order);
       var trackingID = service.CompleteOrder(reference);
 
-      trackingID.Should().Be("TR-2");
+      trackingID.Should().Be("TR-1");
     }
   }
 }
