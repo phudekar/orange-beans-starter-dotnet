@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeBeans", "OrangeBeans\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{385F5E74-C971-44C3-A9AC-1D8D734B5EE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrangeBeans.Api", "OrangeBeans.Api\OrangeBeans.Api.csproj", "{926841C3-DDAF-4BFB-80D0-661F9E0088AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{385F5E74-C971-44C3-A9AC-1D8D734B5EE2}.Release|x64.Build.0 = Release|x64
 		{385F5E74-C971-44C3-A9AC-1D8D734B5EE2}.Release|x86.ActiveCfg = Release|x86
 		{385F5E74-C971-44C3-A9AC-1D8D734B5EE2}.Release|x86.Build.0 = Release|x86
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|x64.ActiveCfg = Debug|x64
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|x64.Build.0 = Debug|x64
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|x86.ActiveCfg = Debug|x86
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Debug|x86.Build.0 = Debug|x86
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|x64.ActiveCfg = Release|x64
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|x64.Build.0 = Release|x64
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|x86.ActiveCfg = Release|x86
+		{926841C3-DDAF-4BFB-80D0-661F9E0088AF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
